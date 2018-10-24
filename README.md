@@ -85,7 +85,7 @@ docker-compose down --volumes --remove-orphans --rmi local
 ```
 
 This takes care to stop and remove any Docker containers, removes a Docker image with
-the web application created by `docker up --build` command, removes a Docker volume with
+the web application created by `docker up` command, removes a Docker volume with
 Redis persistent storage and the local network.
 
 [docker-compose.yml]: ./docker-compose.yml
